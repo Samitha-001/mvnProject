@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>mvnProjectConfigs_module</artifactId>
+  <version>1.0.1</version>
+  <packaging>pom</packaging>
+  <name>mvnProjectConfigs_module</name>
+  <description>mvnProjectConfigs_module</description>
+  <modules>
+    <module>artifacts/api/mvnApi</module>
+    <module>artifacts/metadata/mvnApi_swagger</module>
+    <module>artifacts/metadata/mvnApi_metadata</module>
+    <module>artifacts/proxy-service/mvnProxy</module>
+    <module>artifacts/sequence/mvnSeq</module>
+  </modules>
+  <distributionManagement>
+    <repository>
+      <id>release</id>
+      <name>Release Distribution Repository</name>
+      <url>https://example.com/nexus/repository</url>
+    </repository>
+  </distributionManagement>
+</project>
