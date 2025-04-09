@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>mvnProject</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.5-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>mvnProject</name>
   <description>mvnProject</description>
@@ -15,7 +15,7 @@
     <connection>scm:git:https://github.com/Samitha-001/mvnProject.git</connection>
     <developerConnection>scm:git:https://github.com/Samitha-001/mvnProject.git</developerConnection>
     <url>https://github.com/Samitha-001/mvnProject.git</url>
-    <tag>mvnProject-1.0.4</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
