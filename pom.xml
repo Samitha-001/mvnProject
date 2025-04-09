@@ -13,9 +13,9 @@
     <module>mvnProjectCompositeExporter</module>
   </modules>
   <scm>
-    <connection>scm:git:https://github.com/Samitha-001/repository.git</connection>
-    <developerConnection>scm:git:https://github.com/Samitha-001/repository.git</developerConnection>
-    <url>https://github.com/Samitha-001/repository.git</url>
+    <connection>scm:git:https://github.com/Samitha-001/mvnProject.git</connection>
+    <developerConnection>scm:git:https://github.com/Samitha-001/mvnProject.git</developerConnection>
+    <url>https://github.com/Samitha-001/mvnProject.git</url>
   </scm>
   <distributionManagement>
     <repository>
